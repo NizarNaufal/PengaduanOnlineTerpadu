@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ololololo">
+
+    <ImageView
+        android:id="@+id/imgLogo2"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/heart"
+        android:contentDescription="@+id/imgLogo7" />
+
+    <ScrollView
+        android:id="@+id/lytScroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fadeScrollbars="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:paddingTop="100dp"
+                android:text="Konten Masih Tahap Perbaikan"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#131313" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:paddingTop="100dp"
+                android:text="PESAN DALAM APLIKASI"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#131313" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:paddingTop="30dp"
+                android:text="Kita berdua memang begitu dekat, namun hanya satu yang sadar bahwa kedekatan ini bisa begitu melukai"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#131313" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="top|center"
+                android:paddingTop="30dp"
+                android:text="SpecialGirlDevelopment"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#131313" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

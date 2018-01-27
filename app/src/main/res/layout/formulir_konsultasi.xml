@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#b3b3b3">
+    <ImageView
+        android:id="@+id/imgSeparator"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imgSeparator">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Judul Pengaduan :"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#565353"/>
+            <EditText
+                android:id="@+id/edtjudul"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/juduladuan"
+                android:textColorHint="#515058"
+                android:textColor="@color/textform_color"
+                android:textSize="14sp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/form"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Isi Pengaduan :"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#565353"/>
+            <EditText
+                android:id="@+id/edtisi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/juduladuan"
+                android:textColorHint="#515058"
+                android:textColor="@color/textform_color"
+                android:textSize="14sp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/form"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Isi Pengaduan :"
+                android:layout_marginBottom="10dp"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:textColor="#565353"/>
+            <EditText
+                android:id="@+id/edtlokasi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/juduladuan"
+                android:textColorHint="#515058"
+                android:textColor="@color/textform_color"
+                android:textSize="14sp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/form"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Topik :"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:ms_multiline="false"
+                app:ms_dropDownHintView="@layout/my_custom_dropdown_hint_item_layout"
+                app:ms_hintView="@layout/my_custom_hint_item_layout"
+                app:ms_hint="hint"
+                app:ms_enableFloatingLabel="false"
+                app:ms_enableErrorLabel="false"
+                app:ms_floatingLabelText="floating label"
+                app:ms_baseColor="@color/base"
+                app:ms_highlightColor="@color/highlight"
+                app:ms_errorColor="@color/error"
+                app:ms_typeface="typeface.ttf"
+                app:ms_thickness="2dp"
+                app:ms_hintColor="@color/hint"
+                app:ms_arrowColor="@color/arrow"
+                app:ms_arrowSize="16dp"
+                app:ms_alignLabels="false"
+                app:ms_floatingLabelColor="@color/floating_label"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Instansi :"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <!-- Spinner Element -->
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner2"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Kategori"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <!-- Spinner Element -->
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner3"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Rahasia Identitas? :"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <!-- Spinner Element -->
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner4"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:text="Rahasia Pengaduan/Saran/Keluhan"
+                android:textSize="15dp"
+                android:layout_marginBottom="10dp"
+                />
+
+            <!-- Spinner Element -->
+            <org.angmarch.views.NiceSpinner
+                android:id="@+id/spinner5"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"/>
+
+            <Button
+                android:id="@+id/btnchoose"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="@string/chooseimage"
+                android:textColor="@color/textbutton_color"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/btnsimpan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/kirim"
+                android:textColor="@color/textbutton_color"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:background="@color/colorPrimaryDark"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

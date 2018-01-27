@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">PengaduanOnlineTerpadu</string>
+
+    <string name="namapengguna">Nama</string>
+    <string name="juduladuan">Masukkan Judul Aduan</string>
+    <string name="isipengaduan">Masukkan Isi Aduan</string>
+    <string name="lokasipengaduan">Masukkan Lokasi Aduan</string>
+    <string name="spinner_title">Select Category</string>
+    <string name="email">Email</string>
+    <string name="isikonsul">Isi Pengaduan</string>
+    <string name="saran_title">Saran &amp; Masukan</string>
+    <string name="message_saran">Saran dan Masukan</string>
+    <string name="pesan_saran">Jika ada Saran dan Masukan atau Keluhan atau ingin meminta penambahan tips &amp; informasi tentang cinta, jangan ragu untuk memberitahu StuckLove®, gw akan senang mendengarnya.</string>
+    <string name="send">Kirim</string>
+    <string name="kirim">SIMPAN</string>
+    <string name="chooseimage">CHOOSE IMAGE</string>
+
+
+    <string-array name="topik">
+        <item>Parkir Liar</item>
+        <item>Transportasi</item>
+        <item>Limbah</item>
+        <item>Banjir</item>
+        <item>RTH</item>
+        <item>Wifi</item>
+        <item>CFD</item>
+        <item>Persampahan</item>
+        <item>Pungutan Liar</item>
+        <item>Infrastruktur</item>
+        <item>Kesehatan</item>
+        <item>Kesehatan</item>
+        <item>Pengemis</item>
+        <item>Pohon Tumbang</item>
+        <item>Keamanan</item>
+        <item>Ketertiban Pasar</item>
+        <item>Orang Terlantar</item>
+        <item>Reklame dan Taman</item>
+        <item>PKL</item>
+        <item>LINGKUNGAN</item>
+        <item>LALU LINTAS</item>
+        <item>Pelayanan Kesehatan</item>
+        <item>PERIZINAN</item>
+        <item>AKSES WIFI</item>
+        <item>LAMPU PJU</item>
+        <item>KEBERSIHAN</item>
+        <item>PELAYANAN PUBLIK</item>
+        <item>PARKIR</item>
+        <item>RUANG TERBUKA HIJAU (RTH)</item>
+        <item>PUNGLI</item>
+        <item>Orang Gila</item>
+        <item>Bangunan dan Permukiman Liar</item>
+        <item>Umum</item>
+        <item>KEBAKARAN</item>
+        <item>Pendidikan</item>
+        <item>Kependudukan Dan Catatan Sipil</item>
+        <item>JPO</item>
+        <item>PDAM</item>
+        <item>Pengamen</item>
+        <item>Perempuan Dan Anak</item>
+        <item>Jaringan Telekomunikasi</item>
+        <item>Stadion</item>
+        <item>Pasar</item>
+        <item>Ketenagakerjaan</item>
+    </string-array>
+
+    <string name="tentang_isi">\n 2016 Pemda Kota Bekasi. All Rights Reserved\n</string>
+</resources>
