@@ -13,6 +13,14 @@
     <dimen name="underline_bottom_spacing">4dp</dimen>
     <dimen name="error_label_spacing">12dp</dimen>
 
+    <!-- Dimens spinner -->
+
+    <dimen name="ms__padding_left">24dp</dimen>
+    <dimen name="ms__padding_top">12dp</dimen>
+    <dimen name="ms__item_height">48dp</dimen>
+    <dimen name="ms__popup_padding_left">24dp</dimen>
+    <dimen name="ms__popup_padding_top">12dp</dimen>
+
     <dimen name="floating_label_top_spacing">4dp</dimen>
     <dimen name="floating_label_bottom_spacing">8dp</dimen>
     <dimen name="floating_label_inside_spacing">12dp</dimen>
