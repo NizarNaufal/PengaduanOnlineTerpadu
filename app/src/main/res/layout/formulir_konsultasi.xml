@@ -162,13 +162,14 @@
             app:ms_dropdown_max_height="350dp"
             app:ms_dropdown_height="wrap_content"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content" />
 
             <Button
                 android:id="@+id/btnchoose"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
+                android:layout_marginTop="16dp"
                 android:text="@string/chooseimage"
                 android:textColor="@color/textbutton_color"
                 android:textSize="16sp"

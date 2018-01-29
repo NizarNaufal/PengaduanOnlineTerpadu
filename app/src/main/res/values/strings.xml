@@ -14,6 +14,9 @@
     <string name="send">Kirim</string>
     <string name="kirim">SIMPAN</string>
     <string name="chooseimage">CHOOSE IMAGE</string>
+    <string name="permissionsgambar">Anda harus mengizinkan akses ke kartu SD untuk memilih gambar.</string>
+    <string name="apppermissions">Anda harus memberikan Akses Izin untuk menggunakan Aplikasi ini.</string>
+    <string name="select_picture_title">Pilih Gambar</string>
 
 
     <string-array name="topik">
