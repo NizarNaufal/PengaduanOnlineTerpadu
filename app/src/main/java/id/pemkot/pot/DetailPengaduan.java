@@ -70,7 +70,7 @@ public class DetailPengaduan extends AppCompatActivity {
 
             case R.id.share:
                 Toast.makeText(getApplicationContext(),"Tombol Share Terpilih", Toast.LENGTH_SHORT).show();
-                //Intent intent = new Intent(DetailPengaduan.this, TidakTersedia.class);
+                ///Intent intent = new Intent(DetailPengaduan.this, TidakTersedia.class);
                 //startActivity(intent);
                 break;
         }
